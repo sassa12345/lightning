@@ -1,0 +1,68 @@
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  width: 150px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card.selected {
+  border-color: #007bff;
+  box-shadow: 0 0 10px #007bff;
+}
+
+.card-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-description {
+  font-size: 0.9em;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-value {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: right;
+  color: #007bff;
+}
+
+/* Card Type Specific Styles */
+.card.attack {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.card.shield {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}
+
+.card.heal {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.card.charge {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}

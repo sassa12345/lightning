@@ -1,0 +1,148 @@
+
+[
+  {
+    "id": "attack_normal_1",
+    "name": "通常攻撃1",
+    "type": "attack",
+    "baseValue": 2,
+    "probability": 7,
+    "description": "攻撃力2の通常攻撃",
+    "isPiercing": false
+  },
+  {
+    "id": "attack_normal_2",
+    "name": "通常攻撃2",
+    "type": "attack",
+    "baseValue": 4,
+    "probability": 7,
+    "description": "攻撃力4の通常攻撃",
+    "isPiercing": false
+  },
+  {
+    "id": "attack_normal_3",
+    "name": "通常攻撃3",
+    "type": "attack",
+    "baseValue": 6,
+    "probability": 7,
+    "description": "攻撃力6の通常攻撃",
+    "isPiercing": false
+  },
+  {
+    "id": "attack_normal_4",
+    "name": "通常攻撃4",
+    "type": "attack",
+    "baseValue": 8,
+    "probability": 7,
+    "description": "攻撃力8の通常攻撃",
+    "isPiercing": false
+  },
+  {
+    "id": "attack_normal_5",
+    "name": "通常攻撃5",
+    "type": "attack",
+    "baseValue": 10,
+    "probability": 7,
+    "description": "攻撃力10の通常攻撃",
+    "isPiercing": false
+  },
+  {
+    "id": "attack_biohazard",
+    "name": "バイオハザード",
+    "type": "attack",
+    "baseValue": 15,
+    "probability": 10,
+    "description": "攻撃力15の強力な攻撃",
+    "isPiercing": false
+  },
+  {
+    "id": "attack_armor_piercer",
+    "name": "アーマーピーサー",
+    "type": "attack",
+    "baseValue": 6,
+    "probability": 5,
+    "description": "シールドを無視して6ダメージ",
+    "isPiercing": true
+  },
+  {
+    "id": "shield",
+    "name": "シールド",
+    "type": "shield",
+    "baseValue": 10,
+    "probability": 20,
+    "description": "10ポイントのシールドを張る"
+  },
+  {
+    "id": "heal_normal_1",
+    "name": "通常回復1",
+    "type": "heal",
+    "baseValue": 2,
+    "probability": 6.67,
+    "description": "HPを2回復",
+    "isPersistent": false,
+    "isHpShare": false
+  },
+  {
+    "id": "heal_normal_2",
+    "name": "通常回復2",
+    "type": "heal",
+    "baseValue": 4,
+    "probability": 6.67,
+    "description": "HPを4回復",
+    "isPersistent": false,
+    "isHpShare": false
+  },
+  {
+    "id": "heal_normal_3",
+    "name": "通常回復3",
+    "type": "heal",
+    "baseValue": 6,
+    "probability": 6.66,
+    "description": "HPを6回復",
+    "isPersistent": false,
+    "isHpShare": false
+  },
+  {
+    "id": "heal_auto",
+    "name": "自動回復",
+    "type": "heal",
+    "baseValue": 3,
+    "probability": 5,
+    "description": "毎ターンHPが3回復",
+    "isPersistent": true,
+    "isHpShare": false
+  },
+  {
+    "id": "heal_nakayoshi",
+    "name": "なかよし",
+    "type": "heal",
+    "baseValue": 0,
+    "probability": 5,
+    "description": "誰か一人のHPと同じになる",
+    "isPersistent": false,
+    "isHpShare": true
+  },
+  {
+    "id": "charge_1",
+    "name": "チャージ1",
+    "type": "charge",
+    "baseValue": 2,
+    "probability": 3.33,
+    "description": "手札のカードの数値を2上げる"
+  },
+  {
+    "id": "charge_2",
+    "name": "チャージ2",
+    "type": "charge",
+    "baseValue": 3,
+    "probability": 3.33,
+    "description": "手札のカードの数値を3上げる"
+  },
+  {
+    "id": "charge_3",
+    "name": "チャージ3",
+    "type": "charge",
+    "baseValue": 4,
+    "probability": 3.34,
+    "description": "手札のカードの数値を4上げる"
+  }
+]
