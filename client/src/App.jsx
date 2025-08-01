@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import './App.css';
 import './Card.css';
 
-const socket = io('http://localhost:3001');
+const socket = io('https://fs57x4-4000.csb.app/');
 
 function App() {
   const [game, setGame] = useState(null);
